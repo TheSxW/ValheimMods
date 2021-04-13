@@ -87,3 +87,4 @@ E:\MAOCI\Github\ValheimMods\Materials_Mod\bin\Release\MaterialsMod.dll
 E:\MAOCI\Github\ValheimMods\Materials_Mod\bin\Release\MaterialsMod.pdb
 E:\MAOCI\Github\ValheimMods\Materials_Mod\obj\Release\MaterialsMod.dll
 E:\MAOCI\Github\ValheimMods\Materials_Mod\obj\Release\MaterialsMod.pdb
+E:\MAOCI\Github\ValheimMods\Materials_Mod\obj\Release\MaterialsMod.csprojAssemblyReference.cache

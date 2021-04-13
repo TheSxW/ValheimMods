@@ -13,7 +13,7 @@ class ConsoleConfigReloader
     {
         var command = __instance?.m_input?.text?.ToLower();
         if (command == null) return;
-        if (command == "beds reload")
+        if (command == "materials reload")
         {
             Base_BedMod.config.Reload();
         }
