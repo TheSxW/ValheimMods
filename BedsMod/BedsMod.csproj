@@ -290,7 +290,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Base_BedMod.cs" />
+    <Compile Include="Base.cs" />
     <Compile Include="BedsPatches.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

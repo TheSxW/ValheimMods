@@ -290,7 +290,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Base_NoEdgeMapKillMod.cs" />
+    <Compile Include="Base.cs" />
     <Compile Include="NoEdgeMapKillPatch.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

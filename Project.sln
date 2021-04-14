@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnableConsole", "EnableCons
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NoEdgeMapKillMod", "NoEdgeMapKillMod\NoEdgeMapKillMod.csproj", "{A3685795-9D6A-4636-80D6-4F9C276B11B2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FastGameKill", "FastGameKill\FastGameKill.csproj", "{61DDFC28-E80E-4355-9D87-B049571F653E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{A3685795-9D6A-4636-80D6-4F9C276B11B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A3685795-9D6A-4636-80D6-4F9C276B11B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A3685795-9D6A-4636-80D6-4F9C276B11B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61DDFC28-E80E-4355-9D87-B049571F653E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61DDFC28-E80E-4355-9D87-B049571F653E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61DDFC28-E80E-4355-9D87-B049571F653E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61DDFC28-E80E-4355-9D87-B049571F653E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
