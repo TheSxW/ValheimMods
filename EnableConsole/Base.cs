@@ -6,9 +6,11 @@ using BepInEx.Configuration;
 using HarmonyLib;
 using UnityEngine;
 
-public class Base_EnableConsole : BaseUnityPlugin
+[BepInPlugin(GUID, MODNAME, VERSION)]
+[BepInProcess("valheim.exe")]
+public class Base : BaseUnityPlugin
 {
-    public Base_EnableConsole()
+    public Base()
     {
         base.Logger.LogInfo("Enabled Console [F5]");
         Console.SetConsoleEnabled(true);

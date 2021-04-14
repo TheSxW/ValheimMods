@@ -6,9 +6,12 @@ using BepInEx.Configuration;
 using HarmonyLib;
 using UnityEngine;
 
-public class Base_BedMod : BaseUnityPlugin
+[BepInPlugin(GUID, MODNAME, VERSION)]
+[BepInProcess("valheim.exe")]
+public class Base : BaseUnityPlugin
 {
-    public Base_BedMod()
+    
+    public Base()
     {
         config = base.Config;
         Log = base.Logger;
@@ -16,7 +19,7 @@ public class Base_BedMod : BaseUnityPlugin
         Assembly = Assembly.GetExecutingAssembly();
         ModFolder = Path.GetDirectoryName(Assembly.Location);
 
-        Patch<BedsPatches>();
+        Patch<NoEdgeMapKillPatch>();
     }
     #region Patching Method
     private static FieldInfo fi;
@@ -34,9 +37,9 @@ public class Base_BedMod : BaseUnityPlugin
     }
     #endregion
     #region Plugin Information
-    public const string MODNAME = "Beds-CanSleepNearEnemy";
+    public const string MODNAME = "NoEdgeMapKillPatch";
     public const string AUTHOR = "TheSxW";
-    public const string GUID = "TheSxW_Beds-CanSleepNearEnemy";
+    public const string GUID = "TheSxW_NoEdgeMapKillPatch";
     public const string VERSION = "1.0";
     #endregion
     #region Static Plugin Data

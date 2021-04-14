@@ -6,9 +6,11 @@ using BepInEx.Configuration;
 using HarmonyLib;
 using UnityEngine;
 
-public class Base_BedMod : BaseUnityPlugin
+[BepInPlugin(GUID, MODNAME, VERSION)]
+[BepInProcess("valheim.exe")]
+public class Base : BaseUnityPlugin
 {
-    public Base_BedMod()
+    public Base()
     {
         config = base.Config;
         Log = base.Logger;

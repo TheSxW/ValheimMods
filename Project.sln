@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30320.27
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaterialsMod", "MaterialsMod.csproj", "{15063C97-347F-469E-98F6-C6D1642BBA8E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaterialsMod", "MaterialsMod\MaterialsMod.csproj", "{15063C97-347F-469E-98F6-C6D1642BBA8E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BedsMod", "..\BedsMod\BedsMod.csproj", "{302631A2-8E92-444B-84FA-51D14BE65C70}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BedsMod", "BedsMod\BedsMod.csproj", "{302631A2-8E92-444B-84FA-51D14BE65C70}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnableConsole", "..\EnableConsole\EnableConsole.csproj", "{7174DAEA-574A-414C-A447-8F93927616C6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnableConsole", "EnableConsole\EnableConsole.csproj", "{7174DAEA-574A-414C-A447-8F93927616C6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NoEdgeMapKillMod", "..\NoEdgeMapKillMod\NoEdgeMapKillMod.csproj", "{A3685795-9D6A-4636-80D6-4F9C276B11B2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NoEdgeMapKillMod", "NoEdgeMapKillMod\NoEdgeMapKillMod.csproj", "{A3685795-9D6A-4636-80D6-4F9C276B11B2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

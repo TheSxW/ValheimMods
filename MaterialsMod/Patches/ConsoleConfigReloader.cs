@@ -15,7 +15,7 @@ class ConsoleConfigReloader
         if (command == null) return;
         if (command == "materials reload")
         {
-            Base_BedMod.config.Reload();
+            Base.config.Reload();
         }
     }
 }
