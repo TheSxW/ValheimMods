@@ -87,3 +87,4 @@ E:\MAOCI\Github\ValheimMods\ValheimFPSBoostCustom\obj\Release\ValheimFPSBoostCus
 E:\MAOCI\Github\ValheimMods\ValheimFPSBoostCustom\obj\Release\ValheimFPSBoostCustom.csproj.CopyComplete
 E:\MAOCI\Github\ValheimMods\ValheimFPSBoostCustom\obj\Release\ValheimFPSBoostCustom.dll
 E:\MAOCI\Github\ValheimMods\ValheimFPSBoostCustom\obj\Release\ValheimFPSBoostCustom.pdb
+E:\MAOCI\Github\ValheimMods\ValheimFPSBoostCustom\obj\Release\ValheimFPSBoostCustom.csprojAssemblyReference.cache

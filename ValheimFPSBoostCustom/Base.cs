@@ -44,7 +44,7 @@ public class Base : BaseUnityPlugin
                         case "antiAliasing":
                             QualitySettings.antiAliasing = int.Parse(splitted[1]); break;
                         case "anisotropicFiltering":
-                            QualitySettings.anisotropicFiltering = (AnisotropicFiltering)int.Parse(splitted[1]); break;
+                            QualitySettings.anisotropicFiltering = (AnisotropicFiltering)(int)Mathf.Clamp(int.Parse(splitted[1]), 0f, 2f); break;
                         case "lodBias":
                             QualitySettings.lodBias = float.Parse(splitted[1]); break;
                         case "masterTextureLimit":
@@ -143,10 +143,10 @@ public class Base : BaseUnityPlugin
     }
     #endregion
     #region Plugin Information
-    public const string MODNAME = "SaveWhereYouWant";
+    public const string MODNAME = "ValheimFPSBoostCustom";
     public const string AUTHOR = "TheSxW";
-    public const string GUID = "TheSxW_SaveWhereYouWant";
-    public const string VERSION = "1.0";
+    public const string GUID = "TheSxW_ValheimFPSBoostCustom";
+    public const string VERSION = "1.0.0";
     #endregion
     #region Static Plugin Data
     internal static ConfigFile config;

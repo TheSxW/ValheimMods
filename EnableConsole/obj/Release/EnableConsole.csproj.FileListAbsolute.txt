@@ -87,3 +87,4 @@ E:\MAOCI\Github\ValheimMods\EnableConsole\obj\Release\EnableConsole.csproj.CoreC
 E:\MAOCI\Github\ValheimMods\EnableConsole\obj\Release\EnableConsole.csproj.CopyComplete
 E:\MAOCI\Github\ValheimMods\EnableConsole\obj\Release\EnableConsole.dll
 E:\MAOCI\Github\ValheimMods\EnableConsole\obj\Release\EnableConsole.pdb
+E:\MAOCI\Github\ValheimMods\EnableConsole\obj\Release\EnableConsole.csprojAssemblyReference.cache

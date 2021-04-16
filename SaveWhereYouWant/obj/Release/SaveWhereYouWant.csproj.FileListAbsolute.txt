@@ -87,3 +87,4 @@ E:\MAOCI\Github\ValheimMods\SaveWhereYouWant\obj\Release\SaveWhereYouWant.csproj
 E:\MAOCI\Github\ValheimMods\SaveWhereYouWant\obj\Release\SaveWhereYouWant.csproj.CopyComplete
 E:\MAOCI\Github\ValheimMods\SaveWhereYouWant\obj\Release\SaveWhereYouWant.dll
 E:\MAOCI\Github\ValheimMods\SaveWhereYouWant\obj\Release\SaveWhereYouWant.pdb
+E:\MAOCI\Github\ValheimMods\SaveWhereYouWant\obj\Release\SaveWhereYouWant.csprojAssemblyReference.cache

@@ -87,3 +87,4 @@ E:\MAOCI\Github\ValheimMods\FixHeightMapCalculation\obj\Release\FixHeightMapCalc
 E:\MAOCI\Github\ValheimMods\FixHeightMapCalculation\obj\Release\FixHeightMapCalculation.csproj.CopyComplete
 E:\MAOCI\Github\ValheimMods\FixHeightMapCalculation\obj\Release\FixHeightMapCalculation.dll
 E:\MAOCI\Github\ValheimMods\FixHeightMapCalculation\obj\Release\FixHeightMapCalculation.pdb
+E:\MAOCI\Github\ValheimMods\FixHeightMapCalculation\obj\Release\FixHeightMapCalculation.csprojAssemblyReference.cache
