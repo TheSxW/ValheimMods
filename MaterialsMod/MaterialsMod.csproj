@@ -298,6 +298,7 @@
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
-    <PostBuildEvent>xcopy /Y /I $(TargetDir)MaterialsMod.dll $(SolutionDir)\..\Compiled</PostBuildEvent>
+    <PostBuildEvent>xcopy /Y /I $(TargetDir)MaterialsMod.dll $(SolutionDir)\Compiled
+rmdir /s /q $(TargetDir)..\</PostBuildEvent>
   </PropertyGroup>
 </Project>

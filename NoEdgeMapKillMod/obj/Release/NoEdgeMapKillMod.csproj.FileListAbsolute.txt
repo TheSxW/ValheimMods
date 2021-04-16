@@ -87,4 +87,3 @@ E:\MAOCI\Github\ValheimMods\NoEdgeMapKillMod\obj\Release\NoEdgeMapKillMod.csproj
 E:\MAOCI\Github\ValheimMods\NoEdgeMapKillMod\obj\Release\NoEdgeMapKillMod.csproj.CopyComplete
 E:\MAOCI\Github\ValheimMods\NoEdgeMapKillMod\obj\Release\NoEdgeMapKillMod.dll
 E:\MAOCI\Github\ValheimMods\NoEdgeMapKillMod\obj\Release\NoEdgeMapKillMod.pdb
-E:\MAOCI\Github\ValheimMods\NoEdgeMapKillMod\obj\Release\NoEdgeMapKillMod.csprojAssemblyReference.cache

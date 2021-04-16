@@ -87,4 +87,3 @@ E:\MAOCI\Github\ValheimMods\BedsMod\obj\Release\BedsMod.csproj.CoreCompileInputs
 E:\MAOCI\Github\ValheimMods\BedsMod\obj\Release\BedsMod.csproj.CopyComplete
 E:\MAOCI\Github\ValheimMods\BedsMod\obj\Release\BedsMod.dll
 E:\MAOCI\Github\ValheimMods\BedsMod\obj\Release\BedsMod.pdb
-E:\MAOCI\Github\ValheimMods\BedsMod\obj\Release\BedsMod.csprojAssemblyReference.cache

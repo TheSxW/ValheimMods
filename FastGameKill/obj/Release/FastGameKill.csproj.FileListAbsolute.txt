@@ -1,0 +1,5 @@
+E:\MAOCI\Github\ValheimMods\FastGameKill\bin\Release\FastGameKill.dll
+E:\MAOCI\Github\ValheimMods\FastGameKill\bin\Release\FastGameKill.pdb
+E:\MAOCI\Github\ValheimMods\FastGameKill\obj\Release\FastGameKill.csproj.CoreCompileInputs.cache
+E:\MAOCI\Github\ValheimMods\FastGameKill\obj\Release\FastGameKill.dll
+E:\MAOCI\Github\ValheimMods\FastGameKill\obj\Release\FastGameKill.pdb
