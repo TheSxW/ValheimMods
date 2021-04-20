@@ -4,3 +4,8 @@ E:\MAOCI\Github\ValheimMods\FastGameKill\obj\Release\FastGameKill.csproj.CoreCom
 E:\MAOCI\Github\ValheimMods\FastGameKill\obj\Release\FastGameKill.dll
 E:\MAOCI\Github\ValheimMods\FastGameKill\obj\Release\FastGameKill.pdb
 E:\MAOCI\Github\ValheimMods\FastGameKill\obj\Release\FastGameKill.csprojAssemblyReference.cache
+J:\_git\Valheim_Mods\ValheimMods\FastGameKill\bin\Release\FastGameKill.dll
+J:\_git\Valheim_Mods\ValheimMods\FastGameKill\bin\Release\FastGameKill.pdb
+J:\_git\Valheim_Mods\ValheimMods\FastGameKill\obj\Release\FastGameKill.csproj.CoreCompileInputs.cache
+J:\_git\Valheim_Mods\ValheimMods\FastGameKill\obj\Release\FastGameKill.dll
+J:\_git\Valheim_Mods\ValheimMods\FastGameKill\obj\Release\FastGameKill.pdb

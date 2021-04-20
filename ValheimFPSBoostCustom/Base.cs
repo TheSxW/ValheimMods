@@ -99,32 +99,32 @@ public class Base : BaseUnityPlugin
         {
             // save to file a current values
             string fileData = "";
-            fileData += "patchPostProcessor=0\n\r";
-            fileData += "antiAliasing=" + QualitySettings.antiAliasing + "\n\r";
-            fileData += "anisotropicFiltering=" + (int)QualitySettings.anisotropicFiltering + "\n\r";
-            fileData += "lodBias=" + QualitySettings.lodBias + "\n\r";
-            fileData += "masterTextureLimit=" + QualitySettings.masterTextureLimit + "\n\r";
-            fileData += "maximumLODLevel=" + QualitySettings.maximumLODLevel + "\n\r";
-            fileData += "maxQueuedFrames=" + QualitySettings.maxQueuedFrames + "\n\r";
-            fileData += "particleRaycastBudget=" + QualitySettings.particleRaycastBudget + "\n\r";
-            fileData += "pixelLightCount=" + QualitySettings.pixelLightCount + "\n\r";
-            fileData += "realtimeReflectionProbes=" + QualitySettings.realtimeReflectionProbes + "\n\r";
-            fileData += "shadowResolution=" + (int)QualitySettings.shadowResolution + "\n\r";
-            fileData += "shadowCascades=" + QualitySettings.shadowCascades + "\n\r";
-            fileData += "shadowCascade2Split=" + QualitySettings.shadowCascade2Split + "\n\r";
-            fileData += "shadowDistance=" + QualitySettings.shadowDistance + "\n\r";
-            fileData += "shadows=" + (int)QualitySettings.shadows + "\n\r";
-            fileData += "skinWeights=" + (int)QualitySettings.skinWeights + "\n\r";
-            fileData += "softParticles=" + QualitySettings.softParticles + "\n\r";
-            fileData += "softVegetation=" + QualitySettings.softVegetation + "\n\r";
-            fileData += "streamingMipmapsActive=" + QualitySettings.streamingMipmapsActive + "\n\r";
-            fileData += "streamingMipmapsAddAllCameras=" + QualitySettings.streamingMipmapsAddAllCameras + "\n\r";
-            fileData += "streamingMipmapsMaxFileIORequests=" + QualitySettings.streamingMipmapsMaxFileIORequests + "\n\r";
-            fileData += "streamingMipmapsMaxLevelReduction=" + QualitySettings.streamingMipmapsMaxLevelReduction + "\n\r";
-            fileData += "streamingMipmapsMemoryBudget=" + QualitySettings.streamingMipmapsMemoryBudget + "\n\r";
-            fileData += "vSyncCount=" + QualitySettings.vSyncCount + "\n\r";
+            fileData += "patchPostProcessor=0\n";
+            fileData += "antiAliasing=" + QualitySettings.antiAliasing + "\n";
+            fileData += "anisotropicFiltering=" + (int)QualitySettings.anisotropicFiltering + "\n";
+            fileData += "lodBias=" + QualitySettings.lodBias + "\n";
+            fileData += "masterTextureLimit=" + QualitySettings.masterTextureLimit + "\n";
+            fileData += "maximumLODLevel=" + QualitySettings.maximumLODLevel + "\n";
+            fileData += "maxQueuedFrames=" + QualitySettings.maxQueuedFrames + "\n";
+            fileData += "particleRaycastBudget=" + QualitySettings.particleRaycastBudget + "\n";
+            fileData += "pixelLightCount=" + QualitySettings.pixelLightCount + "\n";
+            fileData += "realtimeReflectionProbes=" + QualitySettings.realtimeReflectionProbes + "\n";
+            fileData += "shadowResolution=" + (int)QualitySettings.shadowResolution + "\n";
+            fileData += "shadowCascades=" + QualitySettings.shadowCascades + "\n";
+            fileData += "shadowCascade2Split=" + QualitySettings.shadowCascade2Split + "\n";
+            fileData += "shadowDistance=" + QualitySettings.shadowDistance + "\n";
+            fileData += "shadows=" + (int)QualitySettings.shadows + "\n";
+            fileData += "skinWeights=" + (int)QualitySettings.skinWeights + "\n";
+            fileData += "softParticles=" + QualitySettings.softParticles + "\n";
+            fileData += "softVegetation=" + QualitySettings.softVegetation + "\n";
+            fileData += "streamingMipmapsActive=" + QualitySettings.streamingMipmapsActive + "\n";
+            fileData += "streamingMipmapsAddAllCameras=" + QualitySettings.streamingMipmapsAddAllCameras + "\n";
+            fileData += "streamingMipmapsMaxFileIORequests=" + QualitySettings.streamingMipmapsMaxFileIORequests + "\n";
+            fileData += "streamingMipmapsMaxLevelReduction=" + QualitySettings.streamingMipmapsMaxLevelReduction + "\n";
+            fileData += "streamingMipmapsMemoryBudget=" + QualitySettings.streamingMipmapsMemoryBudget + "\n";
+            fileData += "vSyncCount=" + QualitySettings.vSyncCount;
 
-            File.WriteAllText(Base.ModFolder + $"\\SavePath.txt", fileData);
+            File.WriteAllText(Base.ModFolder + $"\\Settings.txt", fileData);
         }
     }
     #region Patching Method

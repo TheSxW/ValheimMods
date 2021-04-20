@@ -28,15 +28,25 @@ public class Base : BaseUnityPlugin
             var fileLines = File.ReadAllLines(Base.ModFolder + $"\\SavePath.txt").ToList();
             if (fileLines.Count == 1)
             {
-                if (IsValidPath(fileLines[0]))
-                {
-                    if (fileLines[0].StartsWith(GameDir))
-                        fileLines[0] = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, fileLines[0].Substring(GameDir.Length));
-                    if (fileLines[0].StartsWith(ModDir))
-                        fileLines[0] = Path.Combine(Base.ModFolder, fileLines[0].Substring(ModDir.Length));
+                string StartingPath = "";
+                string restOfPath = "";
+                if (fileLines[0].StartsWith(GameDir)) {
+                    StartingPath = Application.dataPath;
+                    restOfPath = fileLines[0].Substring(GameDir.Length);
+                }
+                if (fileLines[0].StartsWith(ModDir)) {
+                    StartingPath = Base.ModFolder;
+                    restOfPath = fileLines[0].Substring(ModDir.Length);
+                }
 
-                    Log.LogInfo($"﻿Successfully Changed Save Path: {fileLines[0]}");
-                    Utils.SetSaveDataPath(fileLines[0]);
+                if (restOfPath.StartsWith("\\"))
+                    restOfPath = restOfPath.Substring(2);
+
+                string endPath = Path.Combine(StartingPath, restOfPath);
+                if (IsValidPath(endPath))
+                {
+                    Log.LogInfo($"﻿Successfully Changed Save Path: {Path.GetFullPath((new Uri(endPath)).LocalPath)}");
+                    Utils.SetSaveDataPath(endPath);
                     return;
                 }
             }
