@@ -20,7 +20,8 @@ public class Base : BaseUnityPlugin
         ModFolder = Path.GetDirectoryName(Assembly.Location);
         ChangeSavePath();
     }
-
+    private string GameDir = "GAMEDIR_";
+    private string ModDir = "MODDIR_";
     internal void ChangeSavePath() {
         if (File.Exists(Base.ModFolder + $"\\SavePath.txt"))
         {
@@ -29,6 +30,11 @@ public class Base : BaseUnityPlugin
             {
                 if (IsValidPath(fileLines[0]))
                 {
+                    if (fileLines[0].StartsWith(GameDir))
+                        fileLines[0] = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, fileLines[0].Substring(GameDir.Length));
+                    if (fileLines[0].StartsWith(ModDir))
+                        fileLines[0] = Path.Combine(Base.ModFolder, fileLines[0].Substring(ModDir.Length));
+
                     Log.LogInfo($"﻿Successfully Changed Save Path: {fileLines[0]}");
                     Utils.SetSaveDataPath(fileLines[0]);
                     return;
@@ -59,7 +65,7 @@ public class Base : BaseUnityPlugin
     public const string MODNAME = "SaveWhereYouWant";
     public const string AUTHOR = "TheSxW";
     public const string GUID = "TheSxW_SaveWhereYouWant";
-    public const string VERSION = "1.0";
+    public const string VERSION = "1.1";
     #endregion
     #region Static Plugin Data
     internal static ConfigFile config;
